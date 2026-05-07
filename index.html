@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniela Rivero — Studio de Belleza</title>
+  <link rel="icon" type="image/png" href="logo-circular.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="brand">
+        <span class="brand-mono">DR</span>
+        <div class="brand-text">
+          <span class="brand-name">DANIELA RIVERO</span>
+          <span class="brand-sub">Studio de Belleza</span>
+        </div>
+      </div>
+      <nav class="tabs">
+        <button class="tab active" data-tab="inicio">Inicio</button>
+        <button class="tab" data-tab="servicios">Servicios</button>
+        <button class="tab" data-tab="contacto">Contacto</button>
+      </nav>
+    </header>
+
+    <!-- ============ TAB: INICIO ============ -->
+    <section class="page active" id="inicio">
+      <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <img src="logo.png" alt="Daniela Rivero — Studio de Belleza" class="hero-logo" />
+          <p class="hero-sub">Extensiones · Pestañas · Cejas · Color · Laceados</p>
+          <div class="divider"><span></span><i>✦</i><span></span></div>
+          <p class="hero-desc">
+            Realzamos tu belleza natural con técnicas profesionales,
+            productos premium y un servicio dedicado a cada detalle.
+          </p>
+          <div class="cta-row">
+            <button class="btn-gold" data-go="servicios">Ver Servicios</button>
+            <button class="btn-ghost" data-go="contacto">Reserva tu Cita</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TAB: SERVICIOS ============ -->
+    <section class="page" id="servicios">
+      <div class="services-bg"></div>
+      <div class="services-overlay"></div>
+      <div class="services-wrap">
+        <div class="page-head">
+          <p class="eyebrow">Nuestra Carta</p>
+          <h2 class="page-title">SERVICIOS &amp; PRECIOS</h2>
+          <div class="divider"><span></span><i>✦</i><span></span></div>
+        </div>
+
+        <div class="services-grid">
+
+          <div class="service-card">
+            <h3>EXTENSIONES FIBRA COLOMBIANA</h3>
+            <p>Volumen y largo natural con la mejor fibra premium.</p>
+            <span class="price">S/ 390</span>
+          </div>
+
+          <div class="service-card highlight">
+            <h3>EXTENSIONES CABELLO HUMANO</h3>
+            <p>Cabello 100% humano de la más alta calidad.</p>
+            <span class="price">S/ 1300</span>
+          </div>
+
+          <div class="service-card">
+            <h3>CABELLO HUMANO · 100g</h3>
+            <p>Mechones de cabello humano por 100 gramos.</p>
+            <span class="price">S/ 800</span>
+          </div>
+
+          <div class="service-card">
+            <h3>LACEADO PERMANENTE</h3>
+            <p>Cabello liso, suave y manejable por meses.</p>
+            <span class="price">desde S/ 200</span>
+          </div>
+
+          <div class="service-card">
+            <h3>LACEADO ORGÁNICO</h3>
+            <p>Tratamiento alisador libre de químicos agresivos.</p>
+            <span class="price">desde S/ 300</span>
+          </div>
+
+          <div class="service-card">
+            <h3>PESTAÑAS 1×1</h3>
+            <p>Aplicación pelo a pelo, mirada natural y elegante.</p>
+            <span class="price">S/ 30</span>
+          </div>
+
+          <div class="service-card">
+            <h3>CEJAS PIGMENTADAS</h3>
+            <p>Diseño y pigmentación para cejas perfectas.</p>
+            <span class="price">S/ 20</span>
+          </div>
+
+          <div class="service-card highlight">
+            <h3>MICROPIGMENTACIÓN DE CEJAS</h3>
+            <p>Cejas definidas que duran. Retoque: S/ 150</p>
+            <span class="price">S/ 300</span>
+          </div>
+
+          <div class="service-card">
+            <h3>TINTE</h3>
+            <p>Color profesional con productos de alta gama.</p>
+            <span class="price">S/ 80</span>
+          </div>
+
+          <div class="service-card">
+            <h3>BLOQUE DE COLOR + EXTENSIONES</h3>
+            <p>Mechas y reflejos sin dañar tu cabello natural.</p>
+            <span class="price">S/ 150</span>
+          </div>
+
+        </div>
+
+        <p class="services-foot">
+          Precios en Soles Peruanos (S/). Para reservar tu cita
+          <button class="link-gold" data-go="contacto">contáctanos aquí →</button>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ TAB: CONTACTO ============ -->
+    <section class="page" id="contacto">
+      <div class="contact-bg"></div>
+      <div class="contact-overlay"></div>
+      <div class="contact-wrap">
+        <div class="page-head">
+          <p class="eyebrow">Reserva tu Cita</p>
+          <h2 class="page-title">CONTÁCTANOS</h2>
+          <div class="divider"><span></span><i>✦</i><span></span></div>
+          <p class="contact-intro">
+            Estamos listas para atenderte. Escríbenos y agenda tu transformación.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <a class="contact-card" href="tel:+51916394671">
+            <div class="ico ico-phone">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h4>Teléfono</h4>
+            <p>+51 916 394 671</p>
+          </a>
+
+          <a class="contact-card" href="https://wa.me/51916394671" target="_blank" rel="noopener">
+            <div class="ico ico-whatsapp">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#fff" d="M16.003 3C9.376 3 4 8.373 4 14.998c0 2.302.66 4.546 1.91 6.495L4 29l7.71-1.873a12.04 12.04 0 0 0 4.293.79h.005C22.633 27.917 28 22.55 28 15.92 28 12.69 26.715 9.66 24.42 7.366A11.926 11.926 0 0 0 16.003 3zm0 21.79h-.004a9.96 9.96 0 0 1-5.07-1.388l-.363-.215-4.578 1.111 1.135-4.45-.236-.378a9.95 9.95 0 0 1-1.524-5.272c0-5.512 4.493-9.998 10.013-9.998 2.674 0 5.187 1.04 7.077 2.93a9.93 9.93 0 0 1 2.94 7.072c0 5.512-4.493 9.997-10.012 9.997zm5.484-7.475c-.3-.15-1.778-.878-2.054-.978-.276-.1-.477-.15-.677.15-.2.301-.778.978-.953 1.179-.176.2-.351.226-.65.075-.301-.15-1.27-.467-2.418-1.49-.894-.797-1.498-1.78-1.674-2.082-.176-.301-.019-.464.131-.614.135-.135.301-.351.452-.527.151-.176.201-.301.301-.502.1-.2.05-.376-.025-.527-.075-.15-.677-1.633-.928-2.236-.245-.587-.494-.508-.677-.517l-.578-.01a1.115 1.115 0 0 0-.806.376c-.276.301-1.054 1.03-1.054 2.512 0 1.482 1.079 2.913 1.23 3.114.15.2 2.123 3.243 5.144 4.547.72.31 1.281.495 1.719.634.722.23 1.379.198 1.898.12.58-.087 1.778-.727 2.029-1.43.25-.703.25-1.305.176-1.43-.075-.125-.276-.2-.577-.351z"/>
+                <circle cx="16" cy="16" r="15" fill="none"/>
+              </svg>
+            </div>
+            <h4>WhatsApp</h4>
+            <p>Chatea con nosotras</p>
+          </a>
+
+          <a class="contact-card" href="mailto:Daniela11rivero@gmail.com">
+            <div class="ico ico-mail">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#4285F4" d="M5 11.5l11 7.5 11-7.5V24a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V11.5z"/>
+                <path fill="#34A853" d="M27 11.5L16 19 5 11.5V9a2 2 0 0 1 2-2h2v10l7-5 7 5V7h2a2 2 0 0 1 2 2v2.5z"/>
+                <path fill="#FBBC04" d="M9 7v10l7-5z"/>
+                <path fill="#EA4335" d="M23 7v10l-7-5z"/>
+                <path fill="#C5221F" d="M9 7l7 5 7-5H9z"/>
+              </svg>
+            </div>
+            <h4>Correo</h4>
+            <p>Daniela11rivero@gmail.com</p>
+          </a>
+
+          <a class="contact-card" href="https://www.tiktok.com/@daniela_rivero01" target="_blank" rel="noopener">
+            <div class="ico ico-tiktok">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#25F4EE" d="M22.5 11.7a8.84 8.84 0 0 1-3.7-2.5h-2.6v12.5a3 3 0 1 1-3-3v-3a6 6 0 1 0 6 6V13.4a11.85 11.85 0 0 0 6.4 1.9v-3a8.06 8.06 0 0 1-3.1-.6z" transform="translate(-1.5 -1.5)"/>
+                <path fill="#FE2C55" d="M24 13.2a8.84 8.84 0 0 1-3.7-2.5h-2.6v12.5a3 3 0 1 1-3-3v-3a6 6 0 1 0 6 6V14.9a11.85 11.85 0 0 0 6.4 1.9v-3a8.06 8.06 0 0 1-3.1-.6z" transform="translate(1.5 1.5)"/>
+                <path fill="#fff" d="M23.25 12.45a8.84 8.84 0 0 1-3.7-2.5h-2.6v12.5a3 3 0 1 1-3-3v-3a6 6 0 1 0 6 6V14.15a11.85 11.85 0 0 0 6.4 1.9v-3a8.06 8.06 0 0 1-3.1-.6z"/>
+              </svg>
+            </div>
+            <h4>TikTok</h4>
+            <p>@daniela_rivero01</p>
+          </a>
+
+          <a class="contact-card map" href="https://maps.app.goo.gl/wcCJtBYR3pL1kyVa9" target="_blank" rel="noopener">
+            <div class="ico ico-map">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#EA4335" d="M16 2C10.48 2 6 6.48 6 12c0 7.5 10 18 10 18s10-10.5 10-18c0-5.52-4.48-10-10-10z"/>
+                <circle cx="16" cy="12" r="4" fill="#fff"/>
+              </svg>
+            </div>
+            <h4>Ubicación · Perú</h4>
+            <p>Encuéntranos · Ver en Google Maps</p>
+          </a>
+
+        </div>
+
+        <footer class="footer">
+          <p class="brand-foot">DANIELA RIVERO · <i>Studio de Belleza</i></p>
+          <p>© 2026 · Todos los derechos reservados</p>
+        </footer>
+      </div>
+    </section>
+
+    <div class="sparkles" aria-hidden="true"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
